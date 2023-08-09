@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeTestPackage1
+  gitServerName: testServer1
+  gitUrl: https://github.com/PoojaAnandGit/EdgeTestPackage1
+  gitUsername: PoojaAnandGit
+  gitToken: edge.scaffolding.EdgeTestPackage1.testServer1.gitToken
+  gitBranch: main
