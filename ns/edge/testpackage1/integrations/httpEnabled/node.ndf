@@ -45,10 +45,10 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">localdev</value>
-    <value name="lastModifiedDate">1692002233571</value>
+    <value name="lastModifiedDate">1692002820756</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
-      <null name="group"/>
+      <value name="group">default</value>
       <value name="name">Default (Cloud)</value>
     </record>
     <value name="displayName">httpEnabled</value>
@@ -70,6 +70,25 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">false</value>
+          <value name="displayName">http</value>
+          <value name="serviceName">pub.client:http</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">2</number>
+        <number name="nodeIndex" type="Long">1</number>
       </record>
     </record>
   </record>
