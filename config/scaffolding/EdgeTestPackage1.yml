@@ -18,6 +18,10 @@ services:
   packages:
   - name: EdgeTestPackage1
     version: "1.0"
+- serviceName: edge.testpackage1.integrations:http122
+  packages:
+  - name: EdgeTestPackage1
+    version: "1.0"
 packages:
 - name: EdgeTestPackage1
   gitServerName: testServer1
