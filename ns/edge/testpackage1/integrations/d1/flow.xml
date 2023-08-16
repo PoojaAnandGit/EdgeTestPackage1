@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Flow" SERVICE="pub.client:http">
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
   <COMMENT></COMMENT>
-</INVOKE>
+</SEQUENCE>
 </FLOW>
