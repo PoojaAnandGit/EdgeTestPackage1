@@ -51,7 +51,7 @@
       <value name="id">default</value>
       <value name="name">Cloud Execution</value>
     </record>
-    <value name="displayName">testHTTPEnabled_1</value>
+    <value name="displayName">Copy_testHTTPEnabled_1</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -70,6 +70,7 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">3</number>
         <number name="nodeIndex" type="Long">2</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
