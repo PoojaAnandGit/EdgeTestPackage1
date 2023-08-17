@@ -26,10 +26,20 @@ services:
   packages:
   - name: EdgeTestPackage1
     version: "1.0"
+- serviceName: edge.testpackage1.integrations:test11
+  packages:
+  - name: EdgeTestPackage1
+    version: "1.0"
 packages:
 - name: EdgeTestPackage1
   gitServerName: testServer1
   gitUrl: https://github.com/PoojaAnandGit/EdgeTestPackage1
   gitUsername: PoojaAnandGit
   gitToken: edge.scaffolding.EdgeTestPackage1.testServer1.gitToken
+  gitBranch: main
+- name: customPackage
+  gitServerName: testServer1
+  gitUrl: https://github.com/PoojaAnandGit
+  gitUsername: PoojaAnandGit
+  gitToken: edge.scaffolding.customPackage.testServer1.gitToken
   gitBranch: main
